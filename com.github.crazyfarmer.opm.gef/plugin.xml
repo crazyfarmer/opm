@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.0"?>
+
+<plugin>
+ 
+   <extension
+         point="org.eclipse.ui.editors">
+      <editor
+            class="com.github.crazyfarmer.opm.gef.editor.OPMGraphicalEditor"
+            default="false"
+            extensions="opm"
+            id="com.github.crazyfarmer.opm.gef.opmEditor"
+            name="OPM GEF Editor">
+      </editor>
+   </extension>
+</plugin>
